@@ -4,9 +4,9 @@ import Button from '../UI/Button'
 export default function Hero_section() {
   return (
     <>
-    <div className="bg-hero-bg-gradient pt-10 pl-3 sm:pl-16 flex flex-col lg:flex-row justify-between text-Dark_Black">
+    <div className="min-h-screen bg-hero-bg-gradient pt-10 pl-3 sm:pl-16 flex flex-col lg:flex-row justify-between text-Dark_Black">
         <div className='space-y-10 pr-3 sm:pr-16 lg:pr-0'>
-            <span className='text-sm font-semibold flex items-center gap-2'><img src="/images/single_star.svg" alt="star" />Google Rating <img src="/images/stars.webp" alt="Group" /></span>
+            <span className='text-sm font-semibold flex items-center gap-2'><img src="/images/single_star.svg" alt="star"  width="24" height="24"/>Google Rating <img src="/images/stars.webp" alt="Group" width="120" height="24" /></span>
             <h1 className="font-extrabold text-3xl xl:text-5xl">Your Trusted Partner <br />For <span className="text-Yellow">Compliance</span> needs</h1>
             <p className="lg:text-xl lg:max-w-2xl text-Gray">An online business compliance platform that helps entrepreneurs and other individuals with various, <span className='font-bold'>registrations, tax filings,</span> and other <span className='font-bold'>legal matters</span>.</p>
             <div className="flex justify-between items-center flex-wrap sm:flex-nowrap gap-3 sm:gap-0">
@@ -46,19 +46,19 @@ export default function Hero_section() {
            <span className="px-5 sm:px-8 py-4 bg-white rounded-xl border border-Border shadow-md shadow-[#000026]">Company Formation</span>
            <span className="px-5 sm:px-8 py-4 bg-white rounded-xl border border-Border shadow-md shadow-[#000026]">Annual Compliance</span>
          </div>
-        <img src="/images/hero_img.webp" alt="hero-img" />
-        <img src="/images/hero_img_2.svg" alt="hero-second" className="h-48 w-auto"/>
+        <img src="/images/hero_img.webp" alt="hero-img" width="1200" height="800" loading="lazy"  className="w-full object-cover" />
+        <img src="/images/hero_img_2.svg" alt="hero-second" width="320"  height="192" className="h-48 w-auto"/>
        </div>
     </div>
     <div className='py-20 px-3'>
         <h2 className='text-Menu_Black text-center text-2xl font-bold'>Trusted By Over 100+ Startups and freelance business</h2>
-        <div className='flex items-center justify-center gap-9 mt-9 flex-wrap'>
-            <img src="/images/Oracle.svg" alt="oracle" />
-            <img src="/images/morpheus.svg" alt="morpheus_1" />
-            <img src="/images/samsung.webp" alt="samsung_1" />
-            <img src="/images/morpheus.svg" alt="morpheus_2" />
-            <img src="/images/monday.svg" alt="monday" />
-            <img src="/images/samsung.webp" alt="samsung_2" />
+        <div className='flex items-center justify-center gap-9 sm:gap-16 mt-9 flex-wrap'>
+            <img src="/images/Oracle.svg" alt="oracle" width="120" height="48" />
+            <img src="/images/morpheus.svg" alt="morpheus_1" width="120" height="48" />
+            <img src="/images/samsung.webp" alt="samsung_1" width="120" height="48"/>
+            <img src="/images/morpheus.svg" alt="morpheus_2" width="120" height="48" />
+            <img src="/images/monday.svg" alt="monday" width="120" height="48"/>
+            <img src="/images/samsung.webp" alt="samsung_2" width="120" height="48"/>
         </div>
     </div>
     </>
